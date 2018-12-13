@@ -1,0 +1,218 @@
+@media screen and (max-width: 1210px) {
+  .slide_4 .advantages ul {
+    margin: 0 -15px; }
+    .slide_4 .advantages ul li {
+      margin: 0 10px; } }
+
+@media screen and (max-width: 1180px) {
+  .container {
+    max-width: 960px; }
+  header .header_cont .header_adres {
+    display: none; }
+  header .menu .menu_block > ul > li > a {
+    padding: 15px 20px; }
+  .slide_2 .services ul li {
+    text-align: center; }
+    .slide_2 .services ul li p {
+      text-align: left; }
+  .partners {
+    text-align: center; }
+  .slide_4 {
+    -webkit-background-size: 4000px 4000px;
+            background-size: 4000px; }
+    .slide_4 .advantages ul {
+      text-align: center;
+      margin: 0; }
+      .slide_4 .advantages ul li {
+        text-align: left;
+        margin: 0 15px; }
+  .slide_5 .about .about_cont p {
+    line-height: 16px; }
+  .slide_5 .about .about_slider {
+    width: 425px; }
+  .slide_6 .reviews ul li {
+    width: 290px; }
+  .slide_7 .reviews_form form input[type="text"]:nth-child(2) {
+    width: 340px; }
+  .footer_cont .footer_menu {
+    width: 370px;
+    margin-left: 60px; }
+  .slide_2 .services ul.active {
+    height: auto; } }
+
+@media screen and (max-width: 960px) {
+  .container {
+    max-width: 760px; }
+  header .menu {
+    height: 40px; }
+    header .menu .menu_block .button {
+      display: block; }
+    header .menu .menu_block ul {
+      position: absolute;
+      left: 0;
+      top: 40px;
+      width: 0;
+      z-index: 999;
+      background: #0856a4;
+      overflow: hidden;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+      header .menu .menu_block ul li {
+        width: 100%;
+        min-width: 300px; }
+        header .menu .menu_block ul li a span {
+          display: none; }
+        header .menu .menu_block ul li.active ul {
+          display: block !important; }
+        header .menu .menu_block ul li.active .popup_button span {
+          position: absolute;
+          left: 0;
+          top: 8px;
+          -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+                  transform: rotate(45deg); }
+          header .menu .menu_block ul li.active .popup_button span:nth-child(2) {
+            display: none; }
+          header .menu .menu_block ul li.active .popup_button span:nth-child(3) {
+            -webkit-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                    transform: rotate(-45deg); }
+        header .menu .menu_block ul li ul {
+          display: none !important; }
+        header .menu .menu_block ul li .popup_button {
+          position: absolute;
+          right: 20px;
+          top: 10px;
+          width: 30px;
+          height: 30px; }
+          header .menu .menu_block ul li .popup_button span {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 2px;
+            margin: 4px 0;
+            background: #ffffff;
+            -webkit-border-radius: 3px;
+                    border-radius: 3px;
+            -webkit-transition: .5s;
+            -o-transition: .5s;
+            transition: .5s; }
+        header .menu .menu_block ul li ul {
+          position: relative; }
+    header .menu .menu_block.active .button span {
+      position: absolute;
+      left: 0;
+      top: 10px;
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg); }
+      header .menu .menu_block.active .button span:nth-child(2) {
+        display: none; }
+      header .menu .menu_block.active .button span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg); }
+    header .menu .menu_block.active ul {
+      width: 100%; }
+  .slider_top .slider_top_cont .slider_top_cont_title {
+    font-size: 24px; }
+  .slide_2 .services ul li {
+    width: 235px; }
+    .slide_2 .services ul li p {
+      font-size: 14px; }
+  .slide_5 .about .about_cont {
+    width: auto; }
+  .slide_5 .about .about_slider {
+    position: relative;
+    margin: 20px auto 0; }
+  .slide_6 .reviews ul li {
+    width: 350px;
+    margin-bottom: 20px; }
+  .slide_7 .reviews_form form input[type="text"], .slide_7 .reviews_form form input[type="text"]:nth-child(2) {
+    width: 230px; }
+  .footer_cont .footer_menu {
+    display: none; } }
+
+@media screen and (max-width: 760px) {
+  .container {
+    max-width: 580px; }
+  header .header_cont .logo {
+    width: 226px;
+    margin: 0 auto;
+    float: none; }
+  .owl-carousel .owl-item img {
+    min-height: auto; }
+  .slider_top .item {
+    height: 250px; }
+  .slider_top .slider_top_cont {
+    top: 65px; }
+  .top_form {
+    display: none; }
+  .slide_2 .services ul li {
+    width: 270px; }
+  .slide_5 .about .about_cont p {
+    padding: 20px; }
+  .slide_6 .reviews ul li {
+    width: 260px; }
+  .slide_7 .reviews_form form {
+    text-align: center; }
+  .slide_7 .reviews_form form input[type="text"], .slide_7 .reviews_form form input[type="text"]:nth-child(2) {
+    margin: 0 10px 20px 10px; }
+  .slide_7 .reviews_form form input[type="submit"] {
+    float: none; } }
+
+@media screen and (max-width: 580px) {
+  .container {
+    max-width: 320px;
+    padding: 0 5px; }
+  header .header_cont .header_info {
+    width: auto; }
+  header .header_cont .header_info .order {
+    padding: 5px 0;
+    width: auto;
+    float: none; }
+  header .header_cont .header_info .header_info_block {
+    text-align: center;
+    float: none; }
+  header .header_cont .header_info .order a {
+    margin: 0 auto; }
+  .slider_top .slider_top_cont {
+    width: auto;
+    top: 45px; }
+  .title {
+    font-size: 24px; }
+  .slide_2 .services ul li {
+    width: 150px; }
+  .slide_2 .services ul li .services_img {
+    display: none; }
+  .slide_2 .services ul li p {
+    width: auto;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 12px; }
+  .slide_2 .services .services_link {
+    padding: 20px; }
+  .slide_4 .advantages ul li {
+    width: 150px;
+    margin: 0 2px; }
+  .slide_4 .advantages ul li p {
+    padding: 12px; }
+  .slide_4 .advantages ul li .advantages_img {
+    width: 135px;
+    height: 135px;
+    -webkit-background-size: 100% 100%;
+            background-size: 100% 100%; }
+  .slide_5 .about .about_slider {
+    width: auto; }
+  .slide_6 .reviews ul li {
+    width: 100%; }
+  .footer_cont .logo {
+    width: 226px;
+    margin: 0 auto;
+    float: none; }
+  .footer_cont .brevis {
+    float: none;
+    margin: 20px auto 0; }
+  #popup {
+    width: 310px; } }
